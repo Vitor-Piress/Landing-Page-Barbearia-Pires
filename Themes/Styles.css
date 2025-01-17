@@ -1,0 +1,416 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #8c8c8c #333;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  max-width: 100%;
+  background-color: #242827;
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+}
+
+li a {
+  margin-left: 8px;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+
+li a:hover {
+  background-color: #292e2d;
+}
+
+/* LANDING */
+.container-landing {
+  margin-top: 40px;
+  display: flex;
+  height: 1000px;
+  gap: 40px;
+}
+
+/* IMG BANNER */
+#banner {
+  width: 50%;
+  height: 100%;
+  background-image: url(../Assets/barbeiro-background.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+/* LANDING MAIN */
+#main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.container-text h2 {
+  font-size: 90px;
+}
+.container-text a {
+  color: #333;
+}
+
+.container-text p {
+  font-size: 30px;
+  width: 750px;
+  color: #333;
+}
+
+.container-text {
+  padding: 8rem 0;
+}
+
+#bottom-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Assets/barbearia-background.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+}
+
+/* ABOUT */
+#about {
+  margin: 7.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.about-barbershop,
+.about-barber {
+  width: 45%;
+  margin-bottom: 3rem;
+}
+
+/* Isso é só um elemento para ajeitar o scroll pelo nav */
+#about-scroll {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+}
+
+.about-barbershop {
+  text-align: center;
+  padding: 5px 1rem 0 0;
+}
+
+.about-barber {
+  text-align: center;
+  padding: 5px 0 0 1rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  padding: 2rem 0.5rem 0.7rem 0;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 1.4rem;
+  word-spacing: 3px;
+  line-height: 30px;
+  color: #333;
+}
+
+/* MARK */
+mark {
+  background-color: transparent;
+  color: #333;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#line-through {
+  text-decoration: line-through;
+}
+
+#asterisk {
+  color: #942626;
+}
+
+/* VALUES */
+
+#values {
+  text-align: center;
+  margin: 5rem 0;
+  padding: 3rem 0;
+}
+
+/* Esse é só um elemento para ajudar no scroll da nav */
+#values-scroll {
+  position: absolute;
+  right: 50%;
+  top: 2250px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+#values h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.values-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 15rem 5rem;
+}
+
+.value-card #cash {
+  background-color: #242827;
+  padding: 1rem 0;
+  width: 220px;
+  border-radius: 10px 10px 0 0;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.value-card #service {
+  width: 220px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #dddddd;
+  font-size: 2.5rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.value-card {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.value-card:hover {
+  transform: scale(1.15);
+  #cash {
+    background-color: #2791ce;
+  }
+}
+
+#year {
+  text-align: end;
+  margin-right: 15rem;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #333;
+}
+
+/* CONTACT US */
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 600px;
+  margin: 2rem 0;
+}
+
+form input {
+  padding: 1rem 2rem;
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  /* border: 1px solid #8c8c8c; */
+}
+
+.flex-input {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+form input[type="submit"] {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  height: 3rem;
+  width: 120px;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fafafa;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #fafafa;
+  color: #333;
+}
+
+textarea {
+  margin-top: 10px;
+  padding: 1rem;
+  width: 100%;
+  height: 15rem;
+  resize: none;
+  border-radius: 10px;
+  /* border: 1px solid #8c8c8c; */
+  border: none;
+}
+textarea::placeholder,
+input::placeholder {
+  font-size: 1rem;
+}
+
+#contact-scroll {
+  position: absolute;
+  right: 50%;
+  top: 1550px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+#contact {
+  width: 100%;
+  background-color: #242827;
+  padding: 2rem 0;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+.address-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.address-contact p {
+  line-height: 1.4rem;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* FOOTER */
+footer {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
+
+.separator {
+  width: 80px;
+  height: 1px;
+  background-color: #9c9c9c;
+  padding: 0.5px 0;
+  margin: 2rem 0;
+}
+
+.container-footer {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.container-signature,
+.container-info {
+  padding: 2rem;
+}
+
+.container-info {
+  text-align: center;
+}
+
+.container-info a {
+  line-height: 2.5rem;
+  word-spacing: 1.5px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.container-info p {
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+.container-info p:hover {
+  color: #2791ce;
+  a {
+    color: #2791ce;
+  }
+}
+
+.container-signature a {
+  color: #9c9c9c;
+  transition: 0.2s ease-in-out;
+  font-size: 1.1rem;
+}
+
+.container-signature a:hover {
+  color: #2791ce;
+}

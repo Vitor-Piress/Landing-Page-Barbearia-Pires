@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Pires - Landing Page</title>
+    <link rel="stylesheet" href="Themes/Styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <a href="#banner">
+            <img
+              src="Assets/barbearia-pires-logo.png"
+              alt="Barbearia Pires Logo"
+              title="Logo"
+            />
+          </a>
+          <ul>
+            <li><a href="#about-scroll">Sobre</a></li>
+            <li><a href="#contact-scroll">Contato</a></li>
+            <li><a href="#values-scroll">Valores</a></li>
+            <li><a href="#info">Endereço</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="container-landing">
+          <div id="main-text">
+            <div class="container-text">
+              <a href="#banner">
+                <h2>Barbearia Pires</h2>
+                <p>O Melhor barbeiro de São José e Região!</p>
+              </a>
+            </div>
+            <div id="bottom-img" title="Foto do interior da Barbearia"></div>
+          </div>
+          <div id="banner" title="Foto do Barbeiro Pires"></div>
+        </section>
+
+        <section id="about">
+          <span id="about-scroll"></span>
+          <div class="about-barbershop">
+            <h2 class="title">A Barbearia Pires</h2>
+            <p class="description">
+              Somos uma barbearia tradicional brasileira que preza pelo
+              <mark id="bold">atendimento, confiança e qualidade.</mark> Desde
+              2017 entregando um trabalho exemplar. Contamos no nosso
+              estabelecimento com dois Barbeiros, Espaço de espera com
+              entretenimento para você não ficar entediado, Beliscos e, claro
+              que não pode faltar, aquela
+              <mark id="bold">cerveja gelada.</mark> Aqui você entra feio, sai
+              bonito e ainda por cima com um amigo!
+            </p>
+          </div>
+          <div class="about-barber">
+            <h2 class="title">O Barbeiro Pires</h2>
+            <p class="description">
+              Com mais de <mark id="bold">vinte e cinco anos</mark> de
+              experiência, o Pires vai te entregar um atendimento de qualidade,
+              um ótimo corte de cabelo e aquela conversa boa de
+              <mark id="line-through">barbeiro</mark> psicólogo!
+              <mark id="bold">O Pires se importa com você</mark> e quer te ver
+              arrasando entre as gatinhas, ou gatinhos. Além de que é um ótimo
+              ouvinte e conselheiro caso esteja precisando... Fica a Dica!
+            </p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div id="contact-scroll"></div>
+          <div class="contact-us">
+            <form>
+              <h2 class="form-title">Entre em contato ou deixe um feedback</h2>
+              <div class="flex-input">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nome"
+                  required
+                />
+                <input
+                  type="text"
+                  name="phone-email"
+                  id="phone-email"
+                  placeholder="Telefone ou email"
+                  required
+                />
+              </div>
+              <textarea
+                name="feedback"
+                id="feedback"
+                placeholder="Digite sua mensagem..."
+                required
+              ></textarea>
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </section>
+
+        <section id="values">
+          <div id="values-scroll"></div>
+          <h2>Valores</h2>
+          <div class="values-container">
+            <div class="value-card">
+              <p id="cash">R$35</p>
+              <p id="service">Cabelo</p>
+            </div>
+            <div class="value-card">
+              <p id="cash">R$30</p>
+              <p id="service">Barba</p>
+            </div>
+            <div class="value-card">
+              <p id="cash">R$28</p>
+              <p id="service">Infantil</p>
+            </div>
+            <div class="value-card">
+              <p id="cash">R$30</p>
+              <p id="service">Social</p>
+            </div>
+            <div class="value-card">
+              <p id="cash">R$20</p>
+              <p id="service">Militar</p>
+            </div>
+          </div>
+          <p id="year">2025/1 <mark id="asterisk">*</mark></p>
+        </section>
+      </main>
+
+      <footer id="info">
+        <div class="container-footer">
+          <div class="container-info">
+            <p>
+              <i class="fa-solid fa-location-dot"></i
+              ><a
+                target="_blank"
+                href="https://maps.app.goo.gl/coQbxCSJW71n7udSA"
+              >
+                R. Pedro Buhn, 593 (Sala 02 e 03) - Barreiros, São José</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><a target="_blank" href="mailto:mauriciovpires@outlook.com.br">
+                mauriciovpires@outlook.com.br</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><a target="_blank" href="https://wa.link/2z8qhm">
+                (48) 99925-0253</a
+              >
+            </p>
+          </div>
+
+          <div class="separator"></div>
+
+          <div class="container-signature">
+            <p id="signature">
+              <a href="https://github.com/Vitor-Piress" target="_blank"
+                >2025 &copy; Vitor Pires</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
