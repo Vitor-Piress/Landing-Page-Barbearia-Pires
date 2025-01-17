@@ -87,7 +87,7 @@ li a:hover {
 }
 
 .container-text h2 {
-  font-size: 90px;
+  font-size: 5.6rem;
 }
 .container-text a {
   color: #333;
@@ -228,7 +228,6 @@ mark {
 
 .value-card {
   transition: 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .value-card:hover {
@@ -364,7 +363,7 @@ footer {
 .separator {
   width: 80px;
   height: 1px;
-  background-color: #9c9c9c;
+  background-color: #aaaaaa;
   padding: 0.5px 0;
   margin: 2rem 0;
 }
@@ -413,4 +412,105 @@ footer {
 
 .container-signature a:hover {
   color: #2791ce;
+}
+
+nav p {
+  color: #fff;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 430px) {
+  html {
+    font-size: 12px;
+  }
+
+  .container-text {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .container-text h2 {
+    font-size: 4rem;
+  }
+
+  .container-text p {
+    font-size: 1.3rem;
+  }
+
+  #main-text {
+    width: 100%;
+  }
+  .container-landing {
+    flex-direction: column;
+  }
+  #bottom-img {
+    display: none;
+  }
+
+  #banner {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #about {
+    flex-direction: column;
+  }
+  .about-barbershop,
+  .about-barber {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .about-barbershop {
+    margin-bottom: 0;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    padding: 2rem 0 0.7rem 0;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  .values-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 2rem;
+  }
+
+  #year {
+    text-align: center;
+    margin: 0;
+  }
+
+  .container-footer {
+    width: 100%;
+  }
+
+  nav img {
+    display: none;
+    justify-content: center;
+  }
+
+  #about-scroll {
+    top: 1230px;
+    background-color: transparent;
+  }
+
+  #contact-scroll {
+    top: 2000px;
+    background-color: transparent;
+  }
+
+  #values-scroll {
+    top: 2700px;
+    background-color: transparent;
+  }
 }
