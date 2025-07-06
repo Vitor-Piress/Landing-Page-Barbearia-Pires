@@ -177,8 +177,12 @@ mark {
 /* VALUES */
 
 #values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
-  margin: 5rem 0;
+  margin: 5rem 0 0;
   padding: 3rem 0;
 }
 
@@ -202,6 +206,7 @@ mark {
 .values-container {
   position: relative;
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
   margin: 2rem 15rem 5rem;
 }
@@ -373,7 +378,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: fit-content;
 }
 
 .container-signature,
